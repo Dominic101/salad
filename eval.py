@@ -8,11 +8,11 @@ import argparse
 from vpr_model import VPRModel
 from utils.validation import get_validation_recalls
 # Dataloader
-from dataloaders.val.NordlandDataset import NordlandDataset
-from dataloaders.val.MapillaryDataset import MSLS
-from dataloaders.val.MapillaryTestDataset import MSLSTest
-from dataloaders.val.PittsburghDataset import PittsburghDataset
-from dataloaders.val.SPEDDataset import SPEDDataset
+#from dataloaders.val.NordlandDataset import NordlandDataset
+#from dataloaders.val.MapillaryDataset import MSLS
+#from dataloaders.val.MapillaryTestDataset import MSLSTest
+#from dataloaders.val.PittsburghDataset import PittsburghDataset
+#from dataloaders.val.SPEDDataset import SPEDDataset
 
 VAL_DATASETS = ['MSLS', 'MSLS_Test', 'pitts30k_test', 'pitts250k_test', 'Nordland', 'SPED']
 

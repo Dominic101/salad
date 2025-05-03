@@ -1,6 +1,6 @@
 import numpy as np
-from models import aggregators
-from models import backbones
+from models_salad import aggregators
+from models_salad import backbones
 
 
 def get_backbone(
