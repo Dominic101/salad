@@ -5,8 +5,8 @@ from tqdm import tqdm
 import argparse
 
 
-from vpr_model import VPRModel
-from utils.validation import get_validation_recalls
+from salad.vpr_model import VPRModel
+from salad.utils.validation import get_validation_recalls
 # Dataloader
 #from dataloaders.val.NordlandDataset import NordlandDataset
 #from dataloaders.val.MapillaryDataset import MSLS
