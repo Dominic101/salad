@@ -2,8 +2,8 @@ import pytorch_lightning as pl
 import torch
 from torch.optim import lr_scheduler, optimizer
 
-import utils
-from models_salad import helper
+import salad.utils as utils
+from salad.models_salad import helper
 
 
 class VPRModel(pl.LightningModule):
